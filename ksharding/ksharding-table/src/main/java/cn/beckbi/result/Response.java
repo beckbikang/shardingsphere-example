@@ -1,4 +1,4 @@
-package cn.beckbi.entity.result;
+package cn.beckbi.result;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
