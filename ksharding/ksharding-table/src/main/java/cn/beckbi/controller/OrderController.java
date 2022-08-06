@@ -2,8 +2,8 @@ package cn.beckbi.controller;
 
 
 import cn.beckbi.common.ResultBuilder;
-import cn.beckbi.entity.result.Response;
 import cn.beckbi.model.Order;
+import cn.beckbi.result.Response;
 import cn.beckbi.service.OrderService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.extern.slf4j.Slf4j;

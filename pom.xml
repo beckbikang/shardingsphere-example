@@ -6,7 +6,25 @@
 
     <groupId>cn.beckbi</groupId>
     <artifactId>shardingsphere-example</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ksharding</module>
+    </modules>
+
+
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <name>nexus-aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>redhat</id>
+            <name>redhat-maven</name>
+            <url>https://maven.repository.redhat.com/ga/</url>
+        </repository>
+    </repositories>
 
 
 </project>

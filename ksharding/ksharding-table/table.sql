@@ -1,4 +1,6 @@
-create database db0;
+#db1 is master db2 is slave
+create database db1;
+create database db2;
 CREATE TABLE `order_1` (
   `id` bigint NOT NULL COMMENT '主键ID',
   `uid` bigint NOT NULL COMMENT 'uid',
